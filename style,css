@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4; /* Um cinza claro para o fundo */
-    color: #333; /* Cor de texto padrão */
+    color: #333; /* Cor de texto https://kayane03.github.io/agrinho/ padrão */
     line-height: 1.6;
 }
 
