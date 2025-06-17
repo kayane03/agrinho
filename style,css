@@ -1,0 +1,151 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Arial', sans-serif; /* Uma fonte legível e comum */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Um cinza claro para o fundo */
+    color: #333; /* Cor de texto padrão */
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px; /* Largura máxima para centralizar o conteúdo */
+    margin: 0 auto; /* Centraliza o container */
+    padding: 20px 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #2c3e50; /* Azul escuro, lembra a seriedade e o céu noturno da cidade */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Sombra sutil */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #1abc9c; /* Verde água, para destacar ao passar o mouse */
+}
+
+/* Seções de Conteúdo */
+.section {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 40px;
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.section h2 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.section p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Seção Campo */
+.campo {
+    background-color: #ecf0f1; /* Um cinza bem claro, quase branco, para o campo */
+    border-left: 5px solid #27ae60; /* Verde vibrante para o campo */
+}
+
+/* Seção Cidade */
+.cidade {
+    background-color: #ecf0f1;
+    border-right: 5px solid #3498db; /* Azul vibrante para a cidade */
+}
+
+.campo h2 {
+    color: #27ae60; /* Verde do campo */
+}
+
+.cidade h2 {
+    color: #3498db; /* Azul da cidade */
+}
+
+/* Imagens */
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.image-gallery img {
+    width: 48%; /* Duas imagens por linha */
+    max-width: 400px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.03); /* Pequeno zoom ao passar o mouse */
+}
+
+/* Rodapé */
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 30px;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+/* Responsividade Básica */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav ul li {
+        margin: 0 8px;
+    }
+
+    .section {
+        padding: 20px;
+    }
+
+    .image-gallery img {
+        width: 95%; /* Uma imagem por linha em telas menores */
+    }
+}
